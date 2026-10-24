@@ -36,7 +36,7 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM: 
-'''
+```
 sharon.py
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
@@ -125,7 +125,7 @@ httpd = HTTPServer(server_address,myhandler)
 print("my own webserver is running successfully...")
 httpd.serve_forever()
 
-'''
+```
 
 ## OUTPUT:
 Webpage
